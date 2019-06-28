@@ -82,8 +82,8 @@ li{
 #strike_btn, #ball_btn{
   width: auto;
   font-size: 100%;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 700;
   text-align: right;
@@ -105,9 +105,6 @@ li{
 #ball_btn:hover{
   text-decoration: none;
   font-size: 103%;
-}
-.strike2 {
-  display: block;
 }
 
 #innerHidden {
@@ -181,7 +178,6 @@ button:hover {
   }
   .btns {
     width:80%;
-    height: auto;
     padding-top: 2%;
   }
   #strike_btn, #ball_btn{
@@ -350,7 +346,7 @@ button:hover {
     text-decoration: none;
   }
   #innerHidden_lf li:hover, #innerHidden_rg li:hover {
-    font-size: 90%;
+    font-size: 85%;
     color: #1C6FA6;
     font-weight: 500;
   }
@@ -485,12 +481,12 @@ button:hover {
     text-decoration: none;
   }
   #innerHidden_lf li:hover, #innerHidden_rg li:hover {
-    font-size: 70%;
+    font-size: 95%;
     color: #1C6FA6;
     font-weight: 500;
   }
   #spark {
-    width: 100%;
+    width: 75%;
     display: block;
     text-align: left;
     padding-left: 20px;
@@ -626,7 +622,7 @@ button:hover {
     text-decoration: none;
   }
   #innerHidden_lf li:hover, #innerHidden_rg li:hover {
-    font-size: 70%;
+    font-size: 105%;
     color: #1C6FA6;
     font-weight: 500;
   }
@@ -766,7 +762,7 @@ button:hover {
     text-decoration: none;
   }
   #innerHidden_lf li:hover, #innerHidden_rg li:hover {
-    font-size: 70%;
+    font-size: 105%;
     color: #1C6FA6;
     font-weight: 500;
   }

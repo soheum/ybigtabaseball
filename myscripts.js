@@ -7,6 +7,8 @@ onload = function() {
 
         hiddenMenu.classList.toggle('hidden');
         darkFade.classList.toggle('fade');
+
+
         // See if this thing is working!
         if(DEBUG){
             alert('test');
@@ -14,7 +16,11 @@ onload = function() {
     }
     var button = document.getElementById('spark');
     button.addEventListener('mouseover', toggleClass);
-}
+
+    var button2 = document.getElementById('close');
+    button2.addEventListener('click', toggleClass);
+};
+
 
 
 $(document).ready(function() {
