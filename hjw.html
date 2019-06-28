@@ -1,0 +1,403 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Baseball</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="myscripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,500,700&display=swap&subset=korean" rel="stylesheet">
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+
+<body>
+<div style="position: relative;">
+<header class="container" id="top">
+  <div class="row">
+    <div class="col-lg-12" id="top_title">
+      <img src="./img/baseball_title copy.png" id= 'total_title'>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xd-3">
+      <img src="./img/top_logo.png" alt="Referee List" id="spark">
+    </div>
+  </div>
+</header>
+
+<section class="content">
+  <div class="container" id="body_container">
+    <div class="row" id="darkFade">
+      <div class="hiddenMenu hidden">
+        <div class="innerHidden_title">
+          <img src="./img/menu_title.png" alt="" width="80%" height="80%" style="float:right; padding: 0 15% 10% 20%;">
+        </div>
+        <div id="innerHidden_lf">
+          <ul>
+            <li>
+              <a href="./kgh.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">강광회
+              </a></li>
+            <li>
+              <a href="./kyc.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">권영철
+              </a></li>
+            <li>
+              <a href="./ksc.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">김성철
+              </a></li>
+            <li>
+              <a href="./kjk.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">김정국
+              </a></li>
+            <li>
+              <a href="./ngn.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">나광남
+              </a></li>
+            <li>
+              <a href="./msh.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">문승훈
+              </a></li>
+            <li>
+              <a href="./pkt.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">박기택
+              </a></li>
+            <li>
+              <a href="./bbd.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">배병두
+              </a></li>
+            <li>
+              <a href="./ohg.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">오훈규
+              </a></li>
+            <li>
+              <a href="./whd.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">원현식
+              </a></li>
+            <li>
+              <a href="./yts.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">윤태수
+              </a></li>
+            <li>
+              <a href="./lgj.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">이기중
+              </a></li>
+            <li>
+              <a href="./lyj.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">이영재
+              </a></li>
+            <li>
+              <a href="./jjy.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">장준영
+              </a></li>
+            <li>
+              <a href="./jjs.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">정종수
+              </a></li>
+            <li>
+              <a href="./cph.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">추평호
+              </a></li>
+            <li>
+              <a href="./hit.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">황인태
+              </a></li>
+          </ul>
+        </div>
+        <div id="innerHidden_rg">
+          <ul>
+            <li>
+              <a href="./kmh.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">구명환
+              </a></li>
+            <li>
+              <a href="./kbj.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">김병주
+              </a></li>
+            <li>
+              <a href="./kis.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">김익수
+              </a></li>
+            <li>
+              <a href="./kjh.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">김준희
+              </a></li>
+            <li>
+              <a href="./mdg.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">문동균
+              </a></li>
+            <li>
+              <a href="./pgy.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">박근영
+              </a></li>
+            <li>
+              <a href="./pjc.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">박종철
+              </a></li>
+            <li>
+              <a href="./ssg.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">송수근
+              </a></li>
+            <li>
+              <a href="./whd.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">우효동
+              </a></li>
+            <li>
+              <a href="./ysw.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">윤상원
+              </a></li>
+            <li>
+              <a href="./lgs.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">이계성
+              </a></li>
+            <li>
+              <a href="./lmh.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">이민호
+              </a></li>
+            <li>
+              <a href="./lyh.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">이용혁
+              </a></li>
+            <li>
+              <a href="./jis.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">전일수
+              </a></li>
+            <li>
+              <a href="./csw.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">최수원
+              </a></li>
+            <li>
+              <a href="./hjw.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">함지웅
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12">
+          <button type="button" class="btn btn-link" id="ball_btn">
+            <img src="./img/blue_circle.png" style="padding-right: 2%; width: 10%; height:10%;">Ball Zone</button>
+          <button type="button" class="btn btn-link" id="strike_btn">
+            <img src="./img/red_circle.png" style="padding-right: 2%; width: 10%; height: 10%;">Strike Zone</button>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-8 col-xs-8">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12" id="total_1st_frame">
+          <svg width="100%" height=auto viewBox="0 0 600 780" id="total_1st_frame_svg">
+            <rect width="100%" height="100%" style="fill: none; stroke-width: 3; stroke: black"></rect>
+
+            <rect x="21.5%" y="24.03846154%" width="56.6666667%" height="51.92307692%" style="fill: none; stroke-width: 1; stroke: black"></rect>
+            <rect x="23%" y="25.03846154%" width="53.6666667%" height="49.92307692%" style="fill: none; stroke-width: 1; stroke: black"></rect>
+            <line x1="40.8888889%" y1="25.03846154%" x2="40.8888889%" y2="74.96153846%" style="stroke-width: 1; stroke:black"></line>
+            <line x1="58.7777778%" y1="25.03846154%" x2="58.7777778%" y2="74.96153846%" style="stroke-width: 1; stroke:black"></line>
+            <line x1="23%" y1="41.67948718%" x2="76.6666667%" y2="41.67948718%" style="stroke-width: 1; stroke:black"></line>
+            <line x1="23%" y1="58.32051282%" x2="76.6666667%" y2="58.32051282%" style="stroke-width: 1; stroke:black"></line>
+            <circle cx="3.316592857142851%" cy="51.196618039592764%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="62.22202142857143%" cy="37.861186857466066%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="75.74038571428571%" cy="19.758496002262444%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="71.82122857142858%" cy="53.02875392420815%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="47.05025%" cy="62.088636360859724%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="35.02162142857143%" cy="46.39869519343891%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="48.68207857142857%" cy="69.87950013574661%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="78.87538571428571%" cy="71.80731803393665%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="58.39691428571429%" cy="74.08339072850679%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="41.7122%" cy="44.9855759739819%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="75.20255%" cy="61.769264906108596%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="16.015785714285713%" cy="29.90820576696833%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="40.63815714285714%" cy="26.335558283936653%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="91.94955714285715%" cy="50.11476178959276%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="68.28030714285714%" cy="47.49456233597285%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="76.91173571428571%" cy="74.51873341402715%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="27.831478571428573%" cy="58.931330549773755%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="77.22116428571428%" cy="61.03482064932127%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="66.81215%" cy="37.7164001821267%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="85.06029285714285%" cy="42.87248193778281%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="48.79363571428571%" cy="37.784307259049775%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="45.5483%" cy="45.31501537443439%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="80.4587642857143%" cy="66.23401856447964%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="60.46642142857142%" cy="62.15904277036199%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="57.69622142857143%" cy="78.01067566742081%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="76.98868571428571%" cy="57.08147692307692%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="34.652342857142855%" cy="69.09855384615385%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+            <circle cx="86.71166428571428%" cy="62.842365642533935%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="83.43538571428572%" cy="91.49340727375565%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="59.845935714285716%" cy="16.647336489819004%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="89.2453142857143%" cy="88.28562309954751%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="58.93637857142857%" cy="86.74669322624433%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="46.048678571428574%" cy="82.8109969015837%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="81.70217857142856%" cy="82.08564040497737%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="11.840535714285714%" cy="94.36455028619909%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="31.190407142857143%" cy="19.418580265837107%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="50.711685714285714%" cy="98.24364437895927%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="96.15086428571428%" cy="92.53166392986424%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="99.49350714285714%" cy="83.32767378846154%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="81.15538571428571%" cy="82.43450945135746%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="59.98558571428571%" cy="30.243350475113125%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="20.489064285714285%" cy="30.881642417420814%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="20.641742857142855%" cy="16.490071294117648%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="41.58313571428572%" cy="10.691897162895934%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="60.30152857142857%" cy="87.55730338348417%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="99.35874285714286%" cy="27.577690138009046%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="14.079007142857137%" cy="23.26603283257919%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="73.65703571428571%" cy="90.64147578506787%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="64.82814285714286%" cy="89.11987887330318%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="79.86677857142857%" cy="83.9840841357466%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="81.64599285714286%" cy="77.31630976470588%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="85.36442857142858%" cy="87.83510708597285%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="98.23014285714287%" cy="70.33335385633484%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="88.49291428571428%" cy="80.01181539479639%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="93.16935714285714%" cy="22.20883075904978%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="96.8882%" cy="19.38448274773756%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="75.60643571428571%" cy="97.02434511764706%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="55.37387857142857%" cy="81.86392932466063%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="21.000435714285715%" cy="17.381584446832584%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="67.87642142857143%" cy="90.08777093325791%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="66.4502%" cy="16.392892307692307%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="11.359292857142854%" cy="16.685592527149325%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="23.09192857142857%" cy="50.088892307692305%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="34.06646428571429%" cy="90.8132%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="96.8825%" cy="83.53289229751131%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="95.51897857142856%" cy="96.81941139140272%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="77.67431428571429%" cy="24.71919888574661%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+            <circle cx="98.95404285714285%" cy="29.252646164027148%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+
+
+
+
+            <!--공 좌표 넣는 곳-->
+
+
+
+
+
+
+          </svg>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12" id="total_2nd_frame">
+          <div id="profile_line">
+            <div id="profile_title">
+             <img src="./img/referee_title.png">
+            </div>
+            <img src="./Referee_img/basic_referee.png" class="referee_circle">
+            <!--이미지 넣는곳-->
+
+
+
+
+            <!--심판프로필 넣는곳-->
+            <div class = "profile_part">
+              <span class="profile_list">심판이름</span>
+              <span class="profile_list">경력</span>
+              <span class="profile_contents">함지웅</span>
+              <span class="profile_contents">7년</span>
+              <span class="profile_list">생년월일</span>
+              <span class="profile_list">입사연월</span>
+              <span class="profile_contents">1985. 03. 14</span>
+              <span class="profile_contents">2012. 04</span>
+              <span class="profile_list">최종학력</span>
+              <span class="profile_list">경기수 (1군)</span>
+              <span class="profile_contents">명지대학교</span>
+              <span class="profile_contents">1</span>
+            </div>
+          </div>
+          <div class = "profile_comment">
+            <span>KIA의 외야수 출신이며, 주로 퓨처스리그에서 활동한다.</span>
+          </div>
+
+
+
+
+
+
+
+
+          <div id = "team_line_1">
+            <div class = "team_title">
+              <img src="./img/team_referee_result.png">
+            </div>
+            <div class = team_list>
+              <ul class = team_bnt>
+                <li><img src="./Logo_img/samsung_lions.png" alt="삼성" class="samsung_logo" /></li>
+                <li><img src="./Logo_img/hanhwa_eagles.png" alt="한화" class="hanhwa_logo"/></li>
+                <li><img src="./Logo_img/doosan_bears.png" alt="두산" class="doosan_logo"/></li>
+                <li><img src="./Logo_img/nc_dinos.png" alt="NC" class="nc_logo"/></li>
+                <li><img src="./Logo_img/kiwoom_heroes.png" alt="키움" class="kiwoom_logo"/></li>
+                <li><span style="padding-bottom:10px">삼성 라이온즈</span></li>
+                <li><span style="padding-bottom:10px">한화 이글스</span></li>
+                <li><span style="padding-bottom:10px">두산 베어스</span></li>
+                <li><span style="padding-bottom:10px">NC 다이노스</span></li>
+                <li><span style="padding-bottom:10px">키움 히어로즈</span></li>
+                <li><img src="./Logo_img/sk_wyverns.png" alt="SK" class="sk_logo"/></li>
+                <li><img src="./Logo_img/kt_wiz.png" alt="KT" class="kt_logo"/></li>
+                <li><img src="./Logo_img/lg_twins.png" alt="LG" class="lg_logo"/></li>
+                <li><img src="./Logo_img/lotte_giants.png" alt="롯데" class="lotte_logo"/></li>
+                <li><img src="./Logo_img/kia_tigers.png" alt="기아" class="kia_logo"/></li>
+                <li><span>SK 와이번스</span></li>
+                <li><span>KT 위즈</span></li>
+                <li><span>LG 트윈스</span></li>
+                <li><span>롯데 자이언츠</span></li>
+                <li><span>KIA 타이거즈</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="total_3rd_frame">
+          <div id = "team_line_2">
+            <div class = "team_title">
+              <img src="./img/team_referee_result.png">
+            </div>
+            <div class = team_list>
+              <ul class = team_bnt>
+                <li><img src="./Logo_img/samsung_lions.png" alt="삼성" class="samsung_logo" /></li>
+                <li><img src="./Logo_img/hanhwa_eagles.png" alt="한화" class="hanhwa_logo"/></li>
+                <li><img src="./Logo_img/doosan_bears.png" alt="두산" class="doosan_logo"/></li>
+                <li><img src="./Logo_img/nc_dinos.png" alt="NC" class="nc_logo"/></li>
+                <li><img src="./Logo_img/kiwoom_heroes.png" alt="키움" class="kiwoom_logo"/></li>
+                <li><span>삼성 라이온즈</span></li>
+                <li><span>한화 이글스</span></li>
+                <li><span>두산 베어스</span></li>
+                <li><span>NC 다이노스</span></li>
+                <li><span>키움 히어로즈</span></li>
+                <li><img src="./Logo_img/sk_wyverns.png" alt="SK" class="sk_logo"/></li>
+                <li><img src="./Logo_img/kt_wiz.png" alt="KT" class="kt_logo"/></li>
+                <li><img src="./Logo_img/lg_twins.png" alt="LG" class="lg_logo"/></li>
+                <li><img src="./Logo_img/lotte_giants.png" alt="롯데" class="lotte_logo"/></li>
+                <li><img src="./Logo_img/kia_tigers.png" alt="기아" class="kia_logo"/></li>
+                <li><span>SK 와이번스</span></li>
+                <li><span>KT 위즈</span></li>
+                <li><span>LG 트윈스</span></li>
+                <li><span>롯데 자이언츠</span></li>
+                <li><span>KIA 타이거즈</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</body>
+
+</html>
