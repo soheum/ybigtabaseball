@@ -194,6 +194,14 @@ button:hover {
     display: block;
     float: right;
   }
+  #strike_btn:hover{
+    text-decoration: none;
+    font-size: 50%;
+  }
+  #ball_btn:hover{
+    text-decoration: none;
+    font-size: 50%;
+  }
   .container {
     width: 100%;
   }
