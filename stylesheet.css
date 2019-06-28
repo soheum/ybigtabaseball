@@ -181,6 +181,7 @@ button:hover {
   }
   .btns {
     width:80%;
+    height: auto;
     padding-top: 2%;
   }
   #strike_btn, #ball_btn{
