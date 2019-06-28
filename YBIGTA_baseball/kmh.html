@@ -1,0 +1,1774 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Baseball</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="myscripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,500,700&display=swap&subset=korean" rel="stylesheet">
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+
+<body>
+<div style="position: relative;">
+<header class="container" id="top">
+  <div class="row">
+    <div class="col-lg-12" id="top_title">
+      <img src="./img/baseball_title copy.png" id= 'total_title'>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xd-3">
+      <img src="./img/top_logo.png" alt="Referee List" id="spark">
+    </div>
+  </div>
+</header>
+
+<section class="content">
+  <div class="container" id="body_container">
+    <div class="row" id="darkFade">
+      <div class="hiddenMenu hidden">
+        <div class="innerHidden_title">
+          <img src="./img/menu_title.png" alt="" width="80%" height="80%" style="float:right; padding: 0 15% 10% 20%;">
+        </div>
+        <div id="innerHidden_lf">
+          <ul>
+            <li>
+              <a href="./kgh.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">강광회
+              </a></li>
+            <li>
+              <a href="./kyc.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">권영철
+              </a></li>
+            <li>
+              <a href="./ksc.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">김성철
+              </a></li>
+            <li>
+              <a href="./kjk.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">김정국
+              </a></li>
+            <li>
+              <a href="./ngn.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">나광남
+              </a></li>
+            <li>
+              <a href="./msh.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">문승훈
+              </a></li>
+            <li>
+              <a href="./pkt.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">박기택
+              </a></li>
+            <li>
+              <a href="./bbd.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">배병두
+              </a></li>
+            <li>
+              <a href="./ohg.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">오훈규
+              </a></li>
+            <li>
+              <a href="./whd.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">원현식
+              </a></li>
+            <li>
+              <a href="./yts.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">윤태수
+              </a></li>
+            <li>
+              <a href="./lgj.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">이기중
+              </a></li>
+            <li>
+              <a href="./lyj.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">이영재
+              </a></li>
+            <li>
+              <a href="./jjy.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">장준영
+              </a></li>
+            <li>
+              <a href="./jjs.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">정종수
+              </a></li>
+            <li>
+              <a href="./cph.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">추평호
+              </a></li>
+            <li>
+              <a href="./hit.html">
+                <img src="./img/baseball_ball.png" width="18%" height="18%">황인태
+              </a></li>
+          </ul>
+        </div>
+        <div id="innerHidden_rg">
+          <ul>
+            <li>
+              <a href="./kmh.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">구명환
+              </a></li>
+            <li>
+              <a href="./kbj.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">김병주
+              </a></li>
+            <li>
+              <a href="./kis.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">김익수
+              </a></li>
+            <li>
+              <a href="./kjh.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">김준희
+              </a></li>
+            <li>
+              <a href="./mdg.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">문동균
+              </a></li>
+            <li>
+              <a href="./pgy.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">박근영
+              </a></li>
+            <li>
+              <a href="./pjc.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">박종철
+              </a></li>
+            <li>
+              <a href="./ssg.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">송수근
+              </a></li>
+            <li>
+              <a href="./whd.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">우효동
+              </a></li>
+            <li>
+              <a href="./ysw.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">윤상원
+              </a></li>
+            <li>
+              <a href="./lgs.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">이계성
+              </a></li>
+            <li>
+              <a href="./lmh.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">이민호
+              </a></li>
+            <li>
+              <a href="./lyh.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">이용혁
+              </a></li>
+            <li>
+              <a href="./jis.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">전일수
+              </a></li>
+            <li>
+              <a href="./csw.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">최수원
+              </a></li>
+            <li>
+              <a href="./hjw.html">
+                <img src="./img/baseball_ball.png" width="23%" height="23%">함지웅
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12">
+          <button type="button" class="btn btn-link" id="ball_btn">
+            <img src="./img/blue_circle.png" style="padding-right: 2%; width: 10%; height:10%;">Ball Zone</button>
+          <button type="button" class="btn btn-link" id="strike_btn">
+            <img src="./img/red_circle.png" style="padding-right: 2%; width: 10%; height: 10%;">Strike Zone</button>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-8 col-xs-8">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12" id="total_1st_frame">
+          <svg width="100%" height=auto viewBox="0 0 600 780" id="total_1st_frame_svg">
+            <rect width="100%" height="100%" style="fill: none; stroke-width: 3; stroke: black"></rect>
+
+            <rect x="21.5%" y="24.03846154%" width="56.6666667%" height="51.92307692%" style="fill: none; stroke-width: 1; stroke: black"></rect>
+            <rect x="23%" y="25.03846154%" width="53.6666667%" height="49.92307692%" style="fill: none; stroke-width: 1; stroke: black"></rect>
+            <line x1="40.8888889%" y1="25.03846154%" x2="40.8888889%" y2="74.96153846%" style="stroke-width: 1; stroke:black"></line>
+            <line x1="58.7777778%" y1="25.03846154%" x2="58.7777778%" y2="74.96153846%" style="stroke-width: 1; stroke:black"></line>
+            <line x1="23%" y1="41.67948718%" x2="76.6666667%" y2="41.67948718%" style="stroke-width: 1; stroke:black"></line>
+            <line x1="23%" y1="58.32051282%" x2="76.6666667%" y2="58.32051282%" style="stroke-width: 1; stroke:black"></line>
+
+
+<!--공 좌표 넣는 곳-->
+            <circle cx="30.415207142857145%" cy="15.296304442307694%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.133057142857144%" cy="61.31395297171946%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.587178571428574%" cy="58.41893472058823%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="3.909800000000004%" cy="62.23962622511312%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="32.01609285714285%" cy="53.58794295248869%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.373257142857135%" cy="56.42416809276018%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="27.842064285714287%" cy="50.28119788348416%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.95082142857143%" cy="44.36022039140271%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.7686%" cy="26.163223850678737%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.82539285714286%" cy="55.42567309049774%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.68899285714286%" cy="49.78240330429864%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="59.4221%" cy="68.37386614932126%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="55.70732857142857%" cy="54.33286003280543%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="57.256507142857146%" cy="54.32984122511312%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.140371428571434%" cy="62.93496165384615%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="64.16327857142856%" cy="62.30576923076923%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.36242142857143%" cy="55.167661548642535%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="2.548721428571426%" cy="58.25867429638009%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.33629285714286%" cy="46.77960242760181%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.47399285714286%" cy="71.49035238914027%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="6.969071428571432%" cy="51.939846153846155%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.971300000000003%" cy="33.21977525339367%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="80.67251428571429%" cy="63.90254968891403%" r="12" class="he strike he_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.452414285714283%" cy="58.7415814219457%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.417757142857145%" cy="47.35081833710407%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="94.73807857142856%" cy="50.96023022963801%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="82.74568571428571%" cy="35.7710798699095%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="64.95557857142857%" cy="32.062053371040726%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.71462142857143%" cy="38.785161951357466%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.52773571428571%" cy="48.1282189219457%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.22059285714286%" cy="60.78926728619909%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="11.916264285714291%" cy="51.72801142307692%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="85.03505%" cy="36.98456420475113%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.1293%" cy="82.11832631787331%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.74473571428571%" cy="75.91657713914027%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.22915714285714%" cy="51.92830090497738%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.84735%" cy="37.377359654977376%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.76954285714285%" cy="73.31971576470588%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.035507142857142%" cy="46.39621485859728%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="49.743092857142855%" cy="68.44945457352941%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="22.12944285714286%" cy="52.95572484954751%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="0.947021428571432%" cy="64.0024423280543%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="58.13267857142857%" cy="65.98197102941177%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.41339285714287%" cy="56.69133541402715%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="82.2791%" cy="65.50092394117647%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="65.33544285714285%" cy="64.81703330542986%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.89392142857143%" cy="69.20359105429864%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.753457142857144%" cy="64.0608950678733%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="39.38130714285714%" cy="51.69303750452489%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="3.4668285714285645%" cy="36.91399918552037%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.57967857142857%" cy="67.51986124999999%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.29598571428571%" cy="38.57147833144796%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="50.78008571428571%" cy="62.35769230769231%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.176364285714286%" cy="49.631157214932124%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="66.08865714285714%" cy="24.045133226244342%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="8.288621428571432%" cy="29.22206704524887%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="39.78845%" cy="79.50046856447963%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="49.46501428571428%" cy="87.75901122058823%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.165214285714285%" cy="57.400143201357466%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.503085714285714%" cy="55.65014974660633%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.174571428571433%" cy="54.19007141855204%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.36006428571429%" cy="41.74056545814479%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.25375%" cy="67.5103284479638%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="55.03350714285714%" cy="75.07592911538461%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="78.87131428571428%" cy="64.91843055316743%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="82.50058571428572%" cy="30.878065925339367%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.763242857142856%" cy="63.523142848416285%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.05052857142857%" cy="44.01880279524887%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.38549285714286%" cy="33.220400010180995%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.255664285714285%" cy="40.93388071606335%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="42.55050714285714%" cy="66.42509206674208%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="10.58531428571429%" cy="69.01102699321267%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.258800000000004%" cy="72.23881957239819%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="18.83362142857143%" cy="56.042177712669684%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.73982142857143%" cy="49.76577362556561%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.46462857142856%" cy="73.42353846153846%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="58.63061428571429%" cy="28.356757789592763%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="22.84886428571429%" cy="58.44180219343892%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.21910714285714%" cy="73.1462654739819%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.02783571428571%" cy="59.644289159502264%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="31.44527857142857%" cy="44.959169240950224%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.248464285714284%" cy="40.44294512217195%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.950307142857138%" cy="27.57545750678733%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="52.53283571428572%" cy="78.77173202828054%" r="12" class="kh strike kh_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="84.93896428571429%" cy="32.30372420135747%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="69.73462142857143%" cy="72.1993678382353%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.46143571428571%" cy="52.14564919457013%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="57.45193571428572%" cy="47.174335097285066%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.46854285714285%" cy="58.657377584841626%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.34192142857142%" cy="63.551045057692306%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.21849285714285%" cy="40.94435790723982%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.09831428571428%" cy="42.06425706561086%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="42.76018571428571%" cy="47.142987089366514%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.46902142857143%" cy="58.897962306561084%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="54.27703571428572%" cy="55.38591449095023%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="79.22878571428572%" cy="70.37084347850679%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.68320714285714%" cy="76.61972357013573%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="86.29352857142857%" cy="62.03262070701358%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.197314285714285%" cy="63.18487111877828%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.083935714285715%" cy="59.14945621945701%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="9.446535714285709%" cy="49.160188121040726%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.32678571428572%" cy="63.10949289140272%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.897%" cy="38.211657883484165%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.29241428571429%" cy="72.76892107918552%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.65747142857143%" cy="64.19792092307692%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.65855714285714%" cy="50.884254062217195%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.296435714285717%" cy="37.57408959615385%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="95.657%" cy="39.280299649321265%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="47.72%" cy="58.962661514705886%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.83922142857143%" cy="57.63541261877828%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.107692857142858%" cy="40.52525098755656%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="69.6422%" cy="34.48442730656109%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="26.585621428571432%" cy="32.683216470588235%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.34866428571428%" cy="61.49353232352941%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.54645714285714%" cy="69.69254795135745%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.4205%" cy="61.57970202941176%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="19.08197857142857%" cy="72.88308492873303%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.71875%" cy="43.28325639479638%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.96044285714286%" cy="53.19031670135747%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="66.82843571428572%" cy="50.531482721719456%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="32.76686428571429%" cy="29.159424785067877%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="75.81733571428572%" cy="45.48862876470588%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.591028571428573%" cy="70.71149169683258%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.507%" cy="31.399393165158372%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="36.81142142857143%" cy="32.14931624095023%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.125507142857145%" cy="54.989644562217194%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="75.20865714285713%" cy="60.47774143891403%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.2148%" cy="36.53628949660634%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.428292857142857%" cy="61.707043467194566%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.429792857142857%" cy="52.706930967194566%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="66.77347142857143%" cy="74.377028739819%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="15.425835714285718%" cy="54.99898909728507%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="72.50400714285715%" cy="81.40005273981899%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.84182142857143%" cy="64.37088020475113%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.29040714285714%" cy="53.85132486764706%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="93.96369285714286%" cy="58.410707692307696%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="61.50422857142857%" cy="36.55231366063349%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.172128571428566%" cy="75.5919351561086%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="19.287992857142854%" cy="71.5615375837104%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="49.03792142857143%" cy="34.645572744343895%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="69.14426428571429%" cy="58.90685434728507%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="9.179449999999996%" cy="30.28929955769231%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="5.1792714285714325%" cy="51.25939297850679%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="61.91422142857143%" cy="48.045752339366516%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.49393571428571%" cy="50.95050253280543%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.534835714285713%" cy="71.60726724547511%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="12.06690714285714%" cy="81.30841241855202%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.582528571428576%" cy="40.32801913348416%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="19.15404285714286%" cy="63.884374993212674%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.696157142857146%" cy="66.98121534276018%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.354528571428574%" cy="61.07045646493212%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="85.739%" cy="62.17909973868778%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.42142857142857%" cy="47.020066657239816%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="27.48377857142857%" cy="75.8659109061086%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="61.01932142857143%" cy="60.693701610859726%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.618878571428567%" cy="36.202640600678734%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.94174285714286%" cy="48.93160633484163%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.57572142857142%" cy="34.72009286651584%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.945457142857144%" cy="56.49791654638009%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.3521%" cy="29.418129591628965%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="27.59370714285714%" cy="61.508230769230764%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="40.98137857142857%" cy="51.894011760180994%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="38.25352142857143%" cy="27.735793005656106%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.16252142857143%" cy="58.37498485972851%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="9.29548571428571%" cy="45.669254641402716%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.21406428571429%" cy="70.7562659739819%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.97665%" cy="55.67024110633484%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="42.919378571428574%" cy="72.51770046493212%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.187721428571425%" cy="59.489174709276014%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="46.64595714285714%" cy="62.39489039705882%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.60875714285714%" cy="48.87166215045249%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.779264285714284%" cy="70.61892928280542%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.679635714285716%" cy="44.89518898416289%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.78205%" cy="76.34342850791855%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="79.01707142857143%" cy="59.32884522737557%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.753957142857146%" cy="58.478276811085976%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.43362857142857%" cy="45.90997280542987%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.44551428571428%" cy="32.33930684162896%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="18.925635714285715%" cy="26.382174761312218%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.48157142857143%" cy="26.580692444570133%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.84362857142857%" cy="45.820852891402716%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="19.424385714285712%" cy="26.017738687782806%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.31405000000001%" cy="68.85431835180995%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="54.317342857142854%" cy="61.04825458484163%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.31435714285714%" cy="56.68306443438914%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.88276428571429%" cy="74.69973866515836%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.74207857142858%" cy="62.425607906108596%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="69.80790714285715%" cy="64.04451648303167%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="27.163764285714286%" cy="53.32192218438914%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.13117857142857%" cy="49.15085919343891%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="46.59750714285714%" cy="62.9952773020362%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="11.334864285714282%" cy="57.174916745475116%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="5.957728571428575%" cy="72.3458736561086%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.70922142857143%" cy="74.74381256108597%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="10.292578571428571%" cy="27.140058011312217%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="32.04662857142857%" cy="52.75978548303168%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="49.78625%" cy="79.16272525904978%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="90.61657142857143%" cy="61.13590745814479%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.73988571428571%" cy="48.181804056561084%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.872550000000004%" cy="67.5875826255656%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="65.34155%" cy="45.61233906900453%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.555814285714284%" cy="81.61251296040723%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="40.988299999999995%" cy="34.40751459954751%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="10.723742857142852%" cy="78.97051708484163%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="12.590085714285713%" cy="63.959252132352944%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="59.424949999999995%" cy="60.317245589366514%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.010385714285714%" cy="50.58922652828054%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="65.62207142857143%" cy="67.47225572963801%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.87876428571428%" cy="50.55715211651584%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="32.379264285714285%" cy="71.86793456108597%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.92837142857144%" cy="69.12958420701358%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="6.902707142857146%" cy="58.365109884615386%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.33807857142858%" cy="51.75951761312217%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.78139285714286%" cy="17.061147133484162%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="72.66157142857142%" cy="43.790912929864255%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="66.42414285714285%" cy="57.14227600565611%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.461535714285716%" cy="57.927895433257916%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="55.743564285714285%" cy="37.39904377036199%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.011664285714286%" cy="70.44134084502262%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.78267142857143%" cy="43.106852963800904%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.530742857142855%" cy="70.27694386199096%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="40.199664285714285%" cy="39.313820088235296%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.33654285714286%" cy="36.478566642533934%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="84.99474285714285%" cy="49.14863557239819%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.96663571428572%" cy="42.080203619909504%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="36.76989285714286%" cy="70.85796703280543%" r="12" class="kw strike kw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.35252857142857%" cy="31.579395598416294%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.70816428571428%" cy="48.10785346945701%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="38.600814285714286%" cy="42.05285219230769%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.895871428571425%" cy="62.34350567081448%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.53247142857143%" cy="52.93947036085973%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.806664285714284%" cy="65.95712482918552%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="67.92527857142858%" cy="60.64484162895928%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="84.84572857142857%" cy="60.06024886877828%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="75.85886428571428%" cy="44.651923076923076%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="82.27828571428572%" cy="36.85882037895928%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="54.94922857142857%" cy="28.875139677601815%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="31.546657142857146%" cy="41.36910113800905%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="45.11795%" cy="44.71510988800905%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.03649999999999%" cy="39.389997839366515%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="59.297514285714286%" cy="61.073617114253395%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="61.20986428571429%" cy="50.541400182126694%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.40682142857143%" cy="23.23977960859729%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.89451428571428%" cy="34.51923076470588%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="91.40072857142857%" cy="40.15649308144796%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.444678571428568%" cy="27.607953075791862%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="46.241664285714286%" cy="38.15824174321267%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.06535714285714%" cy="58.291558005656114%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="12.366971428571432%" cy="68.48373531900452%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.19405714285713%" cy="62.62156367420815%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="92.58714285714285%" cy="59.62336064705882%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="99.48658571428571%" cy="42.6169924219457%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.77423571428571%" cy="59.38665577036199%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.838971428571433%" cy="30.17203076923077%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.59719999999999%" cy="55.06146663914027%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="78.49226428571428%" cy="37.628504950226244%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.18230714285714%" cy="32.49077574208145%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.55397142857143%" cy="76.87310934615384%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="95.93467142857143%" cy="65.29806561085972%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="47.51642857142857%" cy="41.34354038461538%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.72852142857143%" cy="63.959204088235296%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.44435%" cy="71.19206063461539%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="66.80482142857143%" cy="27.3272164219457%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.335564285714284%" cy="61.75376021719457%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.63902142857143%" cy="35.64511350791855%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="72.80000000000001%" cy="63.578877690045246%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.86525714285714%" cy="30.96517699660634%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.137228571428572%" cy="56.85412308710407%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="18.70252142857143%" cy="43.34253587217194%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="26.28270714285714%" cy="30.502301213800905%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="86.88347857142857%" cy="40.24633750565611%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.4822%" cy="55.720045630090496%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.48783571428572%" cy="51.28523878959276%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="67.82186428571428%" cy="33.287901506787335%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.94897142857143%" cy="66.17645019683258%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="57.26302142857143%" cy="69.15902535520362%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.3939%" cy="53.627295574660636%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="49.37788571428571%" cy="42.76046251131222%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="84.54851428571428%" cy="68.64213482013574%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="61.28152142857143%" cy="43.46527658936652%" r="12" class="kt strike kt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.08356428571429%" cy="58.1830139739819%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.29012142857143%" cy="43.91314501470588%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="38.84713571428571%" cy="70.83528846832579%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.160092857142853%" cy="61.38615384276018%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="97.22449999999999%" cy="51.08930424886878%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.68100714285714%" cy="76.15201869683258%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="1.8435500000000005%" cy="69.0508379739819%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.136471428571426%" cy="35.781536291855204%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="26.558342857142854%" cy="73.18402191968326%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="66.46200714285715%" cy="58.87320880429864%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="32.83567142857143%" cy="72.79185715158371%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.440028571428577%" cy="65.3629930361991%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.639042857142854%" cy="57.956703914027145%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="31.484364285714285%" cy="69.09724969117647%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="8.426235714285717%" cy="62.27251512669683%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="85.98287857142857%" cy="50.468182809954754%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="80.47749285714286%" cy="35.98244417760181%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="57.318392857142854%" cy="52.59526373190045%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.976942857142856%" cy="72.27529669457013%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="50.04600714285714%" cy="47.681663356334845%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.618885714285714%" cy="66.47461538122172%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="84.58922857142858%" cy="63.590865384615384%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.352264285714284%" cy="33.22333476357466%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="59.10086428571429%" cy="81.4181287816742%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="59.96400714285714%" cy="35.05452854977376%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.603471428571428%" cy="63.419882142533936%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.29761428571428%" cy="37.91646153846154%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.57854285714286%" cy="29.01832965723982%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="15.695364285714284%" cy="77.5229807760181%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.61584285714286%" cy="48.847829824660636%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="75.20499285714286%" cy="55.377954438914024%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="1.5426714285714311%" cy="56.74270743438914%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.54703571428571%" cy="46.97140529638009%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="39.94397857142857%" cy="49.54961752036199%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.264442857142857%" cy="47.50023374095023%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.16475%" cy="41.71543887330317%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.44624999999999%" cy="58.75959643891403%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="9.698964285714283%" cy="37.404079239819005%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.150571428571425%" cy="52.354211733031676%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.45183571428572%" cy="63.4091994581448%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="18.755857142857142%" cy="31.28299243891403%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="67.86787142857143%" cy="40.82915104524887%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.56123571428571%" cy="56.89307272511312%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.3529%" cy="37.107698895927605%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.191878571428575%" cy="37.59186387330317%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="40.90524285714285%" cy="59.618003376696834%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="64.60462142857143%" cy="76.88606943778281%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="50.508114285714285%" cy="75.35069299660634%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="72.57403571428571%" cy="45.03933147737557%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="72.3460357142857%" cy="72.29966370588235%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.6226%" cy="61.18934803280543%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="58.471828571428574%" cy="46.91122800791855%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.75388571428572%" cy="58.66542813574661%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.176692857142854%" cy="41.27073332692308%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="69.90358571428571%" cy="61.096161014705885%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="11.297000000000004%" cy="69.27387691063348%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.72644285714286%" cy="63.46053394117647%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="57.201950000000004%" cy="71.75901934049773%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.79101428571428%" cy="74.50509364932127%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="50.089978571428574%" cy="57.910054358597286%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.212471428571426%" cy="30.1961612861991%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.44882857142857%" cy="59.67542306108597%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.19894285714285%" cy="39.08174003054299%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.08432142857143%" cy="60.936830227375566%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.30977142857143%" cy="48.587533606334844%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.94750714285715%" cy="63.13541484615384%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="65.55285714285715%" cy="78.98391748416289%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="47.60274285714286%" cy="76.37482697285068%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.32022857142857%" cy="71.75349887895928%" r="12" class="lt strike lt_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.09052857142856%" cy="38.6890297341629%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.2657%" cy="60.07911447737556%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.452778571428574%" cy="64.64456521606334%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="69.02782142857143%" cy="57.41150586425339%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="95.36385714285714%" cy="52.4397843540724%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="65.47468571428571%" cy="42.11674866968326%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.596535714285714%" cy="48.31345147511312%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.827557142857145%" cy="46.33643899660633%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.17427857142857%" cy="30.572115394796384%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.345778571428575%" cy="69.78746684841629%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="92.72068571428571%" cy="47.988570798642534%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.72998571428571%" cy="65.12893559502263%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.86895%" cy="57.007186239819006%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.61452857142856%" cy="41.646352776018105%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="26.525364285714286%" cy="34.38383960067873%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.85207857142857%" cy="73.19043924547512%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="19.004621428571433%" cy="32.66615167647059%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="18.939071428571427%" cy="39.15118100678733%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="92.01755%" cy="43.78221153846154%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.81658571428571%" cy="50.06505304864253%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.270264285714287%" cy="51.346659910633484%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.04676428571429%" cy="45.58291591063348%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="54.723264285714286%" cy="61.73585906447964%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="8.353764285714291%" cy="34.350444632352946%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.40607857142857%" cy="34.5221485361991%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="9.584150000000001%" cy="38.17676197171946%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="99.30214999999998%" cy="71.19138795588236%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="1.5357500000000002%" cy="65.31163793665158%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="78.6197%" cy="56.497546426470585%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="94.95752857142857%" cy="72.9568634061086%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="11.827914285714279%" cy="18.07064778167421%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.48972857142857%" cy="30.91132601583711%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="72.31387142857143%" cy="46.20232281900452%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.98614285714285%" cy="61.19748010294118%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.75738571428572%" cy="70.24373343438914%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="52.06502857142857%" cy="52.177660076923075%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="9.876071428571429%" cy="48.026923076923076%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.601964285714285%" cy="37.38269230769231%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="80.15625714285714%" cy="60.10978116289593%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="85.93809285714286%" cy="45.896717668552036%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.23092857142856%" cy="61.89869230769231%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.92303571428572%" cy="28.557846153846157%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.65581428571429%" cy="60.72927719570136%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="90.73667857142857%" cy="74.57990716742081%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.91663571428572%" cy="60.820647761312216%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="75.22942142857143%" cy="45.80614754298642%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.075564285714286%" cy="74.56707737217194%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="65.70512857142857%" cy="51.82872533257918%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.55485714285714%" cy="41.16912624886878%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.29517142857143%" cy="38.915551854072405%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="32.64105714285714%" cy="44.766651299773756%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="38.37688571428571%" cy="44.562379073529414%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="54.218407142857146%" cy="58.81003075904977%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="31.023478571428573%" cy="83.44029182692307%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="3.9997785714285783%" cy="34.58579367533937%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.26734285714286%" cy="49.94222461199095%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.41170714285715%" cy="50.04211248642534%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.383378571428572%" cy="58.846808515837104%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="3.5490714285714304%" cy="71.81984450678733%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.30262142857143%" cy="57.9298390361991%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="61.86332857142857%" cy="38.25057661199095%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.27534285714286%" cy="39.75640781447964%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="15.459628571428574%" cy="68.28148134276017%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="9.168457142857143%" cy="69.14671424095022%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="67.8344857142857%" cy="41.33935083371041%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.24199285714286%" cy="50.28233173076923%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="85.73452142857143%" cy="31.561407337104075%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="88.52141428571429%" cy="38.811896990950224%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="75.58526428571429%" cy="70.25059341968326%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.95483571428571%" cy="38.353999989819%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="79.85008571428571%" cy="63.733948860859726%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="92.13155%" cy="47.72593291063348%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.86117857142857%" cy="63.20893407466063%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.38135%" cy="57.43663791628959%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.73515714285715%" cy="68.68404718891402%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.56530714285714%" cy="51.39596924095023%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="52.76042857142857%" cy="58.58046154864253%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.58293571428572%" cy="46.50107693325792%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="45.09881428571428%" cy="45.472473418552035%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="59.12285%" cy="73.11543575%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="91.34332142857143%" cy="65.8542143902715%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="79.54269285714287%" cy="47.98716484389141%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="36.37822142857143%" cy="64.69877049547512%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="42.63275%" cy="54.86941539479638%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.45105%" cy="37.079119304298644%" r="12" class="nd strike nd_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="97.92641428571429%" cy="44.35593377488688%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.00951428571429%" cy="67.33286713009049%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.40192142857143%" cy="55.95257085180995%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="46.73878571428571%" cy="52.87186425452489%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.50471428571429%" cy="61.98744747737557%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.11667857142857%" cy="64.69480769570136%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="38.78606428571429%" cy="54.67307692307692%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.32563571428571%" cy="54.59655870927602%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.015899999999995%" cy="52.21418780882353%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="92.24188571428571%" cy="44.51935350452489%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="75.53477857142857%" cy="73.75310259954752%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="42.35426428571429%" cy="47.691462279411766%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.99934285714286%" cy="51.91076923076923%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.285892857142855%" cy="76.96218646945701%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="6.701985714285705%" cy="41.528354926470584%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.386814285714284%" cy="57.80558509728507%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="95.14562857142857%" cy="64.32769703393664%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.78396428571429%" cy="63.57065683144796%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="91.2794%" cy="72.39994894457013%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="58.62450714285714%" cy="62.43169762782806%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="96.01650714285714%" cy="41.78959513687783%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="59.21364285714286%" cy="75.89099079072398%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.21132857142857%" cy="46.834625617647056%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="31.285678571428573%" cy="66.50385876357466%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="61.25342857142857%" cy="70.41708861425339%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.65927857142857%" cy="68.6653846300905%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.356721428571426%" cy="31.788437875565617%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="15.28781428571429%" cy="65.85244179751132%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.554914285714286%" cy="56.18470802488687%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="67.11099285714286%" cy="50.11082519570136%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="84.22117142857144%" cy="53.980972239819%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="72.3020642857143%" cy="65.76971379751132%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="80.3012%" cy="62.26523407579185%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="7.434028571428577%" cy="30.820818778280547%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.5787%" cy="53.003975285067874%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.07077142857143%" cy="56.06192494457014%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="64.90916428571428%" cy="19.299458342760182%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.15445%" cy="52.870339976244345%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.899414285714283%" cy="73.44615383257918%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="31.427364285714287%" cy="22.747310787330314%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="0.9335857142857193%" cy="36.054809614253394%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.80559285714285%" cy="47.48850996832579%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="66.31706428571428%" cy="78.8687683484163%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="59.16193571428572%" cy="54.28965480995475%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="0.9783714285714282%" cy="56.75641411877828%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.318642857142855%" cy="18.740755497737556%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="26.98502857142857%" cy="45.932713555429864%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="72.74747857142857%" cy="71.85728248076923%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.57615%" cy="68.94598833031674%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="31.243335714285713%" cy="21.476396750000003%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="8.826050000000002%" cy="31.220270400452492%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.56903571428572%" cy="61.70003580656108%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="3.352421428571425%" cy="38.99423266402715%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="3.892699999999998%" cy="19.832464457013575%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="19.623885714285713%" cy="29.590555898190047%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.89798571428572%" cy="30.12829269343891%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.628321428571425%" cy="23.71618037556561%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="17.85932857142857%" cy="51.82496417760181%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.97932857142857%" cy="42.46203884162896%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="69.94796428571428%" cy="54.407508374434386%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.22677142857143%" cy="55.71306823755656%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.84985%" cy="46.88786616628959%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.36877857142857%" cy="47.44354250678733%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.682%" cy="20.20901751357466%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="96.18058571428571%" cy="63.475348266968325%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="98.57417857142858%" cy="47.43760253733032%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.85955%" cy="69.20350770248868%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="42.97963571428571%" cy="34.25897779524887%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="99.5623142857143%" cy="50.01006895361991%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.6106357142857%" cy="57.66769954864253%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="64.46171428571428%" cy="23.389430285067874%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.36092142857143%" cy="59.448902223981904%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.85402142857143%" cy="66.80098215723982%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.70375714285714%" cy="54.84476922058823%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="84.35064285714286%" cy="56.87904616402715%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="39.63902857142857%" cy="63.5654545361991%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.27915714285714%" cy="59.25719580995475%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.894192857142855%" cy="52.49091936085973%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.94571428571429%" cy="60.58849824886878%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="42.15557857142857%" cy="63.094039453619914%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.475521428571426%" cy="47.26255988800905%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.70898571428572%" cy="54.56891608484163%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="52.82638571428571%" cy="28.76503496040724%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="55.43698571428572%" cy="59.73438819004525%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.338778571428573%" cy="36.043076923076924%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.335592857142856%" cy="73.860800010181%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="92.58551428571428%" cy="52.90338751809955%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.726771428571432%" cy="51.55386444683258%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.289392857142854%" cy="61.83637908710407%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.58202142857142%" cy="61.84878833597285%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="79.9600142857143%" cy="66.1376923076923%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="86.77192142857143%" cy="67.20451572737556%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.98335%" cy="51.44276922058823%" r="12" class="lg strike lg_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="45.985978571428575%" cy="39.312594062217194%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.89813571428571%" cy="42.30483338800905%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="92.42184285714285%" cy="72.1780954423077%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.94337142857142%" cy="63.52625325452489%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="1.3903999999999996%" cy="47.243773904977374%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.34994999999999%" cy="56.04222175565611%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="58.107842857142856%" cy="55.64007444004525%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="67.66063571428572%" cy="37.05133373868779%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.84042857142856%" cy="77.28026986538461%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.004421428571426%" cy="46.0030898800905%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="26.158528571428572%" cy="42.04773694457014%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.11088571428571%" cy="28.091617087104076%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.327771428571431%" cy="64.5243269162896%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.94450714285714%" cy="71.06415384615386%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="85.23943571428572%" cy="56.953631281674205%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="91.15725714285713%" cy="39.45592686085973%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.177421428571428%" cy="62.15338630090498%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="47.5148%" cy="73.60528587669683%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.157885714285715%" cy="67.84154670248869%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.16675714285714%" cy="52.57660975565611%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.47626428571428%" cy="44.51115384276018%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="31.35082142857143%" cy="64.99953846153846%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="39.755471428571425%" cy="43.889989002262446%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="55.22649285714286%" cy="62.15737704751131%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.85107857142856%" cy="49.46214463687783%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="2.411921428571425%" cy="55.39972233371041%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="11.751371428571431%" cy="42.24275064479638%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.9966%" cy="29.361661199095025%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="12.397914285714286%" cy="71.25958451923077%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.32685%" cy="32.78086539140271%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.420114285714284%" cy="69.58884614366515%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="7.201957142857147%" cy="54.64924337556561%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="10.371971428571428%" cy="44.40159654751131%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="3.402092857142854%" cy="59.541153832579184%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="80.10780714285714%" cy="77.60236444117646%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.01905%" cy="28.06163242647059%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.572871428571432%" cy="51.76134616063349%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.28032142857143%" cy="63.63883778733032%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.21027857142857%" cy="69.64329014705882%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="49.597742857142855%" cy="33.911634615384614%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="40.00667857142857%" cy="54.34480768552036%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.32783571428573%" cy="51.182980779411764%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.14097857142857%" cy="44.6335274638009%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.961242857142857%" cy="55.61046894004525%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.65564285714285%" cy="50.33625051696833%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.46530714285714%" cy="67.40768235859728%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.11199285714286%" cy="72.31630896153845%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="83.88894285714287%" cy="39.73811189366516%" r="12" class="sw strike sw_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="6.238249999999994%" cy="61.6237288280543%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.980728571428575%" cy="37.006919471719456%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="88.39112857142857%" cy="59.65890483371041%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.68732857142857%" cy="67.2031877183258%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="85.58957857142858%" cy="47.78395694909502%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.112392857142858%" cy="71.87993309841629%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.5713%" cy="62.35984296153846%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="81.78238571428571%" cy="70.97239645361991%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.08971428571428%" cy="45.793954569004526%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="67.49045%" cy="53.2530936561086%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="3.3654500000000027%" cy="55.63546510633484%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.470335714285714%" cy="65.62252968099547%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="7.413264285714284%" cy="29.446703166289595%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="55.21509285714286%" cy="32.831281294117645%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="4.698028571428573%" cy="30.90286832692308%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="69.39750714285714%" cy="33.222149909502264%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="38.21647142857143%" cy="25.290658314479643%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="15.024800000000006%" cy="30.03640549321267%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.40900714285714%" cy="64.36860679864253%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.262407142857143%" cy="66.503387760181%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="52.43797142857143%" cy="46.454910964932125%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.75084285714286%" cy="36.47124078506788%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.24642142857143%" cy="59.15824499434389%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.098157142857143%" cy="45.89225289479638%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.965985714285715%" cy="68.22801624208145%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="50.44419285714286%" cy="25.54710678846154%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="52.8215%" cy="44.48789334276018%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="93.90710000000001%" cy="51.761613656108594%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="38.639492857142855%" cy="58.353455016968326%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.36699285714286%" cy="78.27783571945702%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.81885%" cy="44.59959719909502%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.76277142857143%" cy="55.64098147511312%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.99162857142857%" cy="54.07979911199095%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.82082857142857%" cy="22.219373617647058%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.0219%" cy="72.94999999999999%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="12.482599999999998%" cy="37.71153847171946%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.115700000000004%" cy="60.49777840158371%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.40802142857143%" cy="45.985112247737554%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="12.458171428571426%" cy="62.002538461538464%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.62706428571428%" cy="40.10599868325792%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="84.65355714285715%" cy="49.10816214479638%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="57.70151428571428%" cy="72.6526751142534%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="94.17988571428572%" cy="54.20697925226244%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="87.14405%" cy="57.54772727828054%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.55704285714286%" cy="55.33655516176471%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="12.36045714285715%" cy="33.08642857579186%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="79.17422857142857%" cy="70.3695100938914%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.518199999999993%" cy="65.92337027828054%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="47.45861428571428%" cy="45.80910749434389%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="95.98515714285715%" cy="27.38860165497738%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="47.64182857142857%" cy="42.31641840384616%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="26.064071428571427%" cy="30.966847575791856%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="6.060735714285713%" cy="46.63419780656109%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="8.68273571428572%" cy="58.17756608257918%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.416485714285717%" cy="58.1959667658371%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="40.33361428571429%" cy="51.06841703054299%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="46.30355%" cy="72.49084215384616%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.572521428571427%" cy="58.22647933144796%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.88547857142857%" cy="71.3610695780543%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="47.886114285714285%" cy="81.89606549434389%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.06923571428571%" cy="44.31577634502263%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.093985714285715%" cy="50.07716743552036%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.57177142857142%" cy="55.206077356334845%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="70.96052857142857%" cy="61.674471052036196%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="88.55113571428572%" cy="31.789792029411764%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="51.41278571428571%" cy="26.848043390271492%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.02711428571429%" cy="48.664793739819004%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.48565%" cy="74.73677845022624%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="10.258785714285715%" cy="55.428059352941176%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="28.539092857142855%" cy="77.8915854479638%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="16.59148571428571%" cy="77.50165657918552%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="56.5607%" cy="42.51881339705882%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="9.667614285714286%" cy="69.77322566176471%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.66873571428571%" cy="72.4911448959276%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.466414285714286%" cy="36.856209717194574%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="24.419214285714286%" cy="40.30885209615384%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="88.92204285714286%" cy="30.838005102941178%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.342650000000006%" cy="56.13151295475113%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="57.61235%" cy="27.000412423076924%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="39.900414285714284%" cy="65.38840690837104%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="44.92740714285714%" cy="46.198781909502266%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="11.908528571428576%" cy="56.11458777262443%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.10921428571429%" cy="74.89898821945701%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="86.89080714285714%" cy="52.40876663800905%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="77.38320714285715%" cy="57.77932307692308%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="40.34542142857143%" cy="67.77079088122171%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.721892857142855%" cy="73.44521356674208%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.94065714285714%" cy="45.38577195927602%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="73.38017857142857%" cy="55.105706627828056%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="45.68550714285714%" cy="72.17672751357466%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="38.046285714285716%" cy="62.65378463122172%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.98839285714286%" cy="66.9003100260181%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.61308571428572%" cy="50.54429345814479%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.033471428571428%" cy="35.43071560972851%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.100257142857146%" cy="29.200717680995474%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.26557142857143%" cy="26.24572067081448%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.438007142857142%" cy="48.80722576470588%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="21.722707142857143%" cy="61.319328751131216%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.929607142857144%" cy="70.36446677488688%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="79.37535714285714%" cy="21.673011360859732%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="46.24858571428572%" cy="56.277469334841626%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="19.90725714285714%" cy="35.70748039253394%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="18.09995%" cy="39.96578575904977%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="46.206649999999996%" cy="50.80597244909502%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.697671428571425%" cy="63.66780478619909%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="54.62717857142857%" cy="77.41450454977375%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="57.377428571428574%" cy="71.59044752828055%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="11.95046428571429%" cy="56.674549477375564%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="14.366857142857143%" cy="48.38229933710407%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="88.22094285714286%" cy="60.106726161764705%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.8426357142857%" cy="48.83173076923077%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="71.36319285714285%" cy="48.05537286085973%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="64.0904%" cy="38.2383963438914%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="18.81041428571428%" cy="69.09646003280542%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="52.71279285714286%" cy="61.32390460972851%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="52.59187142857143%" cy="66.15941286085973%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="36.49303571428571%" cy="60.85103803280543%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.299742857142856%" cy="71.70208605316742%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.20511428571429%" cy="61.57299524773755%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="63.447521428571434%" cy="78.86636085859729%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="25.81245714285714%" cy="65.46467634954752%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="94.13021428571429%" cy="66.17027596266968%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="35.52851428571428%" cy="71.16707210407239%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="39.02709285714286%" cy="74.93941537443439%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="11.850307142857147%" cy="52.99263168099547%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="45.64072142857143%" cy="77.90037422285067%" r="12" class="sl strike sl_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.44551428571428%" cy="66.70729441742081%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="45.5825%" cy="32.53223491402716%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.36214285714286%" cy="40.89741788800905%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.256821428571424%" cy="78.43014213914027%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.37269285714285%" cy="52.62458258597285%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="23.15666428571428%" cy="85.37552458484163%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="75.94314285714286%" cy="62.86334641402715%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="58.26052142857143%" cy="50.549997421945704%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="34.985792857142854%" cy="68.80543512669684%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="99.26265714285715%" cy="65.39604201357466%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="40.020114285714286%" cy="65.23171686764705%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.59753571428571%" cy="63.44527466515837%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="43.047628571428575%" cy="68.31061400678733%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="13.449564285714288%" cy="46.88220905542987%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="65.4527%" cy="32.22645667647059%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="62.96098571428571%" cy="54.274381209276015%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="7.12622857142857%" cy="45.78138759615385%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="45.11225%" cy="62.93784350678733%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="68.06859285714286%" cy="55.39787142873303%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="12.890149999999998%" cy="39.402941285067875%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="39.81532142857143%" cy="41.039147638009055%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="1.530457142857145%" cy="69.5553975418552%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="91.26270714285715%" cy="75.42749941402715%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="10.363014285714293%" cy="66.66620670927601%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="60.493700000000004%" cy="83.24513588800905%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="41.64420714285714%" cy="41.73826260859728%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="42.48902857142857%" cy="46.22886775904978%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="98.46058571428571%" cy="74.65616897285068%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="76.8527%" cy="60.70687709162896%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="89.1761%" cy="57.428648634615385%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.002771428571428%" cy="35.52926420475113%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="8.18561428571428%" cy="52.1768399061086%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="4.554307142857134%" cy="64.87469855542986%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.448650000000004%" cy="30.78525281447964%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="30.880978571428574%" cy="55.538273414027145%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="74.95337857142857%" cy="56.25046420361991%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="78.94093571428571%" cy="27.745590187782806%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="29.10624285714286%" cy="64.8091616142534%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="67.46357857142857%" cy="48.98545807918552%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="18.849092857142857%" cy="54.21104482918552%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="37.100492857142854%" cy="61.64710456674209%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="33.60883571428572%" cy="23.424135700226245%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="94.32360714285714%" cy="49.00588357918552%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="7.813485714285719%" cy="44.466893329185524%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="78.61277857142858%" cy="35.69221537443439%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="8.512957142857147%" cy="36.70600832013575%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="36.256485714285716%" cy="59.737552260181%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.085614285714286%" cy="68.93075877262444%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="53.860935714285716%" cy="20.541939455882357%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="48.18617857142857%" cy="65.652800010181%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="54.58157857142857%" cy="69.2375%" r="12" class="db strike db_strike" fill="#D14936" opacity=0.3></circle>
+<circle cx="20.84287142857143%" cy="4.3264596900452545%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="9.062599999999996%" cy="69.64662883144797%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="24.689150000000005%" cy="83.71152686312217%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="0.39412142857143806%" cy="64.79406152828054%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="4.235107142857146%" cy="63.457997957013575%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="93.51502142857143%" cy="7.87754968891403%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="41.318085714285715%" cy="9.560090760180998%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.27555714285714%" cy="84.0814423178733%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.716464285714281%" cy="73.2598076821267%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="29.9018%" cy="11.569119618778288%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.01888571428572%" cy="11.212561131221719%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="52.14767857142857%" cy="85.86319998981901%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="23.549557142857143%" cy="94.56730770248868%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="32.13782857142857%" cy="9.532307699095028%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="74.03852857142857%" cy="5.909204088235299%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.46552857142858%" cy="22.426328587104074%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="32.86376428571428%" cy="76.68726064932126%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.54939285714286%" cy="16.894568648190045%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="49.177164285714284%" cy="13.108362130090498%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.72177857142857%" cy="79.41009614366516%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.11986428571429%" cy="83.15363493438915%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.48140000000001%" cy="64.32744615384615%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.2541285714285735%" cy="21.52769232126697%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="95.83695714285714%" cy="89.54587595475112%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.84652857142856%" cy="86.15535385633484%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="58.18072142857143%" cy="93.54116922058823%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="5.780621428571429%" cy="25.335292307692306%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="0.8525642857142799%" cy="32.99277727375566%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="17.52302857142857%" cy="19.23833260294118%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.8458%" cy="68.64068476131222%" r="12" class="he ball he_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.802057142857144%" cy="5.119898274886886%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="24.37687142857143%" cy="25.96396803506788%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="9.25395714285714%" cy="92.76024925904977%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.88608571428571%" cy="83.17126819457013%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.51164285714286%" cy="74.55050459502262%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="66.52022857142858%" cy="95.86868552828054%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="45.071535714285716%" cy="18.679009429864255%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="77.28549285714286%" cy="77.65037896266969%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="18.05312857142857%" cy="27.6056208438914%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="38.058499999999995%" cy="83.48141624773756%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="9.233600000000003%" cy="84.99702407692308%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="21.561885714285715%" cy="81.05542055542986%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="29.41811428571429%" cy="82.85254941289593%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.99789285714286%" cy="29.722376006787332%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.800021428571426%" cy="90.6522795418552%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="24.949314285714284%" cy="5.8698752590497705%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="11.288449999999997%" cy="94.21123701696833%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.55526428571429%" cy="78.5584640678733%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="4.359285714285711%" cy="96.91116218665158%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.714785714285718%" cy="26.864643320135745%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.86149285714286%" cy="86.85229957239818%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.41723571428571%" cy="80.68060075226245%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="28.785414285714285%" cy="28.934362467194575%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="61.496492857142854%" cy="83.84695932126697%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.84457857142857%" cy="46.05193452941177%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.064249999999998%" cy="95.15865620475114%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="22.050457142857145%" cy="94.64221116968324%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="5.475264285714282%" cy="42.18115793325792%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="11.911378571428564%" cy="83.03591948529412%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="81.66675714285714%" cy="80.88185878280542%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.001064285714286%" cy="75.35450518891403%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.476685714285715%" cy="83.56956987330317%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="67.82227142857143%" cy="10.851447768099547%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="48.43046428571429%" cy="84.06509833823529%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="1.8785642857142903%" cy="71.35789738348416%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="73.07889285714285%" cy="65.91024549886878%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="91.34047142857142%" cy="8.218400010180993%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.7293%" cy="0.13109333936651524%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="59.323164285714284%" cy="84.65901037443439%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="5.026999999999994%" cy="90.05399692647057%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="28.54397857142857%" cy="87.81767592873302%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.70612857142856%" cy="19.30519825565611%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.21995%" cy="55.581707281674205%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="54.57262142857143%" cy="88.42584616402715%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="29.084664285714286%" cy="15.818165176470586%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="41.742735714285715%" cy="14.023740014705886%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="67.65737857142857%" cy="89.15267315271494%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="40.299414285714285%" cy="85.78577128959276%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.567949999999996%" cy="94.9849938540724%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.84572857142857%" cy="95.41542644909502%" r="12" class="kh ball kh_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.78707857142857%" cy="11.915205527149325%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="32.00876428571429%" cy="26.32153908371041%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.99894285714286%" cy="61.73502966968326%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="43.409171428571426%" cy="20.400263095022623%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.91929285714286%" cy="87.47333497171945%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.17197142857142%" cy="37.55790828846154%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.46532857142857%" cy="83.51579378393666%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="19.12676428571429%" cy="67.15836744343892%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="25.99119285714286%" cy="5.439130331447977%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.145271428571426%" cy="5.800870497737549%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.92535714285714%" cy="11.444543665158378%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.97730000000001%" cy="75.04996214027149%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.15924285714286%" cy="57.06090985633484%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="40.42359285714286%" cy="19.05327716855204%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.70946428571429%" cy="77.82517458031674%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.98242142857143%" cy="93.52466547058822%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.6594%" cy="86.29829106221719%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="95.30156428571428%" cy="54.8089576300905%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="93.25729999999999%" cy="37.117553193438916%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="60.59833571428571%" cy="86.67702537669683%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.89342857142856%" cy="75.92535803393665%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="27.24845%" cy="9.560198088235303%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="9.600842857142858%" cy="86.4320794219457%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="4.819764285714278%" cy="81.05862646945701%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="14.383142857142857%" cy="68.33579688235294%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="25.89062857142857%" cy="9.787672080316746%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="85.45522142857142%" cy="81.44495337330316%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.22877857142856%" cy="77.2155475361991%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="74.62644285714286%" cy="73.09905682918551%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.092899999999993%" cy="16.45933555090498%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="73.72177142857143%" cy="21.0432269841629%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.23293571428572%" cy="76.6031301459276%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.590607142857145%" cy="15.951455746606328%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="61.286814285714286%" cy="12.109847183257912%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="47.7428%" cy="0.2325866447963847%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="22.738121428571425%" cy="8.305985475113125%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="58.563028571428575%" cy="84.33352684049774%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.32500714285715%" cy="59.680147602941176%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="38.536078571428575%" cy="5.733973141402714%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.67907857142858%" cy="85.23651551244343%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.23380714285715%" cy="48.817654850678736%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="28.927914285714284%" cy="4.866731919683261%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.59115714285714%" cy="94.88145258031676%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="29.641635714285716%" cy="17.414384895927604%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.00562142857143%" cy="1.1139249819004462%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="68.39145714285715%" cy="77.3270800158371%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.79205%" cy="5.608962774886891%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="28.730042857142855%" cy="18.484530812217198%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="81.79785714285714%" cy="91.66456192307692%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.37187857142857%" cy="98.83714561199095%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="69.50417857142857%" cy="30.87558461312217%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="54.282735714285714%" cy="78.03772670475112%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.29247142857143%" cy="80.75293775339367%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="42.03221428571428%" cy="89.63453531108598%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="57.91526428571429%" cy="85.57104615384614%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="91.51025%" cy="69.47198116402714%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="12.614921428571435%" cy="94.19514562782805%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.51525000000001%" cy="95.6517853653846%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="54.63084285714286%" cy="96.14875179411766%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="16.318292857142858%" cy="75.75213440271493%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.37822142857143%" cy="97.54432687782806%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="43.874942857142855%" cy="18.363574660633482%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.19567142857143%" cy="58.26992175113122%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="17.192835714285714%" cy="98.45164697285067%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="78.18161428571429%" cy="71.81146772624435%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="49.348571428571425%" cy="97.99961697398189%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.40775714285715%" cy="47.05693741742081%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="32.93582857142857%" cy="77.07421945701357%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="59.45915%" cy="80.27203568325791%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="95.56172857142857%" cy="28.998590000000004%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.54736428571428%" cy="7.0281885147058745%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="28.69095714285714%" cy="6.017796561085973%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.30802142857143%" cy="82.58421993099547%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.370735714285715%" cy="91.23051364932127%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.9231357142857%" cy="77.99966186651584%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="93.48367142857143%" cy="15.60096153846154%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="19.271707142857142%" cy="24.4388059321267%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="79.06389285714286%" cy="22.20979713914027%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="40.16587142857143%" cy="90.23833948755656%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="66.34067857142857%" cy="32.31653191402715%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.18232142857143%" cy="38.32875318778281%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.097607142857143%" cy="87.2747952975113%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.69155%" cy="90.05095096606334%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.71078571428572%" cy="90.90368765950225%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.53953571428572%" cy="92.16063988687782%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="27.428814285714285%" cy="90.16379483936652%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="85.85259285714287%" cy="10.933621718325803%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.1601%" cy="15.434652014705883%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.34075714285714%" cy="99.3729328178733%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="24.692814285714284%" cy="69.84802409162896%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.89622857142857%" cy="65.80198450904977%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.45120714285714%" cy="25.1174345%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="17.483128571428573%" cy="10.604193802036207%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="41.9003%" cy="78.54641519570136%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.00155%" cy="75.70716520022624%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.49612142857143%" cy="86.58014879638009%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="14.175907142857149%" cy="96.58880973642533%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="26.87347142857143%" cy="98.30574523416288%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.85304285714285%" cy="20.006366050904976%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="34.088857142857144%" cy="95.30521932126697%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="93.96776428571428%" cy="92.7699482760181%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="22.57689285714286%" cy="88.33974059841628%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="77.03265714285715%" cy="82.55165930542987%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.59043571428572%" cy="7.138376156108599%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="78.09122857142857%" cy="88.21603542533936%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="79.05005%" cy="21.856759921945702%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.87196428571428%" cy="87.51190737330316%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.101621428571434%" cy="12.412567426470588%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="1.5764642857142874%" cy="85.72525659276019%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="69.56158571428571%" cy="84.72529879524888%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.22292142857142%" cy="89.62026969004525%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.85237142857143%" cy="90.76157413687784%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="66.26372857142857%" cy="82.40595527149321%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="38.47826428571429%" cy="5.036639376696833%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="71.36319285714285%" cy="5.116223312217201%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="7.318399999999997%" cy="24.22812456561086%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="20.427992857142858%" cy="78.3907076923077%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="62.356785714285714%" cy="0.49866129072398735%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="16.438399999999994%" cy="13.493089955882354%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="34.777742857142854%" cy="72.19696871719457%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="22.445385714285713%" cy="62.10502013800905%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.39840714285714%" cy="40.486288979638005%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="59.02798571428572%" cy="83.93720373642535%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="31.528335714285713%" cy="91.04862637782804%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="62.3291%" cy="72.8936766561086%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="85.54357142857143%" cy="80.03659436990951%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="14.77318571428571%" cy="16.22460903506788%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="48.79933571428572%" cy="87.08391800339366%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.74992142857143%" cy="81.3027683800905%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.91523571428571%" cy="92.05376298303167%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.67943571428572%" cy="88.9925467816742%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.00045714285716%" cy="74.92307692307692%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="92.88395%" cy="98.22056212782806%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="4.413435714285704%" cy="89.04144616402715%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.22385%" cy="86.33926902941177%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.89987857142857%" cy="51.83251168552036%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="95.20588571428571%" cy="71.32249021266969%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="32.68584285714286%" cy="90.38735331221719%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="24.646807142857142%" cy="15.712874828054296%" r="12" class="kw ball kw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="91.24642142857144%" cy="80.98096261877828%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.423092857142855%" cy="9.045165452488689%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="91.83677857142857%" cy="16.957087300904988%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.583100000000002%" cy="89.00064821719457%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="95.13911428571429%" cy="29.762543210407244%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.3958142857142875%" cy="67.48247162556561%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.14557142857143%" cy="78.51938840950227%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="11.545357142857142%" cy="77.04288030656109%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.12347142857143%" cy="82.50181565610859%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="92.85219285714285%" cy="16.468193597285065%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="14.561878571428572%" cy="71.13240059162897%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="73.19207857142857%" cy="74.65977301470588%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="85.57736428571428%" cy="21.49942307692308%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.48669285714286%" cy="20.71219382013575%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="78.09000714285715%" cy="84.02828435746605%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="83.64954285714285%" cy="78.21437579298643%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.26242142857143%" cy="81.94027658936652%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.85498571428572%" cy="0.37090162782804725%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="83.1227%" cy="92.55890271493212%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="0.7381571428571405%" cy="53.145998217194574%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.676078571428576%" cy="92.93588260972851%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.02685%" cy="73.3237288076923%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.55329285714286%" cy="98.1649608812217%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="59.65987142857143%" cy="21.032914205882356%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="57.24022142857143%" cy="0.49555219796381067%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="24.35529285714286%" cy="32.058083454751134%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.57784285714285%" cy="14.991758217194572%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="4.066957142857142%" cy="2.0335878642533913%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="61.446821428571425%" cy="23.849914063348415%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.292571428571428%" cy="77.47819083031675%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="24.551128571428567%" cy="94.4721614739819%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="0.5280714285714225%" cy="18.752805805429862%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.00602857142857%" cy="96.65699872511311%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="81.35692142857144%" cy="75.21523075904977%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="92.44871428571429%" cy="20.769875319004523%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="79.16771428571428%" cy="87.65331022171945%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.17702142857144%" cy="87.27604896493213%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="16.638307142857137%" cy="90.65989946719456%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="65.92335714285714%" cy="11.567187500000003%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.64512142857143%" cy="94.05293864366516%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.01569285714285%" cy="83.84015214479638%" r="12" class="kt ball kt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.94560000000001%" cy="35.43720684954751%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="25.18912142857143%" cy="90.79166059728507%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="56.961328571428574%" cy="17.308029696832577%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="91.0571%" cy="47.98953846153846%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="57.59117857142857%" cy="92.54820585859727%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="47.71022857142857%" cy="6.880801653846163%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="67.29787142857143%" cy="20.119137201357468%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="31.3097%" cy="91.32427649434389%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.46063571428571%" cy="65.10040322285067%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="67.14682142857143%" cy="41.53022333257918%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.114935714285714%" cy="5.2953906085972875%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.58929285714285%" cy="53.65584526470588%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.92407857142857%" cy="93.60987322511312%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="23.253564285714283%" cy="17.282950148190046%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.93044285714286%" cy="22.51180704411765%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="65.16118571428572%" cy="5.938310271493215%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="62.01967142857143%" cy="15.787651266968332%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.74539999999999%" cy="67.85920485520361%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.353964285714284%" cy="27.328619108597284%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="62.656442857142856%" cy="2.179444093891398%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.16032857142858%" cy="18.704626382352938%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="20.32132142857143%" cy="18.115373617647066%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.8116785714285726%" cy="28.120505498868777%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="73.18149285714286%" cy="79.63891912782805%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="14.189342857142854%" cy="97.61198750339366%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.49519285714285%" cy="60.27472926357466%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="52.08905%" cy="83.92273921945701%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.56416428571428%" cy="75.34583223303167%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.40054285714285%" cy="86.25925089479637%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.52135%" cy="95.70664768552035%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.58894285714285%" cy="38.996722558823535%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="49.05746428571429%" cy="28.297056880090498%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.72300714285714%" cy="59.88362507013575%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="85.99997857142857%" cy="93.80690786312218%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.41340714285714%" cy="89.45934190158371%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.1086000000000027%" cy="30.571932686651586%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="0.08387857142857058%" cy="71.39081304072398%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.148678571428576%" cy="15.577722082579186%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="31.094321428571426%" cy="90.44410789253394%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="34.071349999999995%" cy="84.83146875113121%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.0072214285714267%" cy="16.45205425565611%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.330521428571426%" cy="4.978068527149333%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="42.93525714285714%" cy="93.68278706108597%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="85.40962142857143%" cy="98.2426766244344%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="38.22502142857143%" cy="85.03146495927601%" r="12" class="lt ball lt_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.48622142857143%" cy="78.34793486651583%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.24369285714286%" cy="44.17369974886878%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="73.82762857142856%" cy="98.30477244004524%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.48279285714286%" cy="11.074341564479646%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="56.983314285714286%" cy="82.06306437330316%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.13126428571428%" cy="15.973972158371048%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.97375%" cy="83.33611605316742%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="23.982757142857142%" cy="78.39130245588235%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="50.6327%" cy="9.508754475113122%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="64.77969285714286%" cy="86.95202370588235%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="92.1515%" cy="91.17047181900452%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="61.35277142857143%" cy="88.99096859502262%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.26683571428572%" cy="7.402188330316733%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.651678571428576%" cy="8.830402412895928%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="20.312771428571427%" cy="15.906531839366515%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="34.71137857142857%" cy="71.81654284049773%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="5.79568571428571%" cy="19.023356434389143%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.00973571428571%" cy="77.70109745475114%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="79.51704285714285%" cy="32.455708820135754%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.88974999999999%" cy="92.76514423076924%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="60.490849999999995%" cy="94.4064655260181%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="11.402857142857144%" cy="20.0532161821267%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="21.649014285714287%" cy="20.761041126696835%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="5.106392857142858%" cy="5.2058448642534%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.34012142857142%" cy="6.59428302941177%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.21855%" cy="78.27257084162895%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="50.96615%" cy="6.035040245475116%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="52.503928571428574%" cy="83.86798227262443%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.786842857142858%" cy="4.232933950226247%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.2562%" cy="68.63006071945702%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="4.755028571428575%" cy="37.21387434954751%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.37872142857142%" cy="76.04748010294118%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="51.271507142857146%" cy="74.635688739819%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.180842857142856%" cy="78.30290699095022%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.47762857142857%" cy="70.73879309502263%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="21.631099999999996%" cy="8.837075139140268%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="46.34263571428571%" cy="8.634516496606338%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="26.797742857142854%" cy="82.32211538461539%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="8.204749999999997%" cy="93.69706477714932%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="66.71077142857143%" cy="88.1175760158371%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.218121428571429%" cy="95.26498672511312%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.734%" cy="73.7917200214932%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.45494285714285%" cy="57.77894684841629%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="71.01182857142857%" cy="79.03914891628959%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="25.00957142857143%" cy="72.24765752149321%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.71207142857142%" cy="41.85242975678733%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="25.593007142857147%" cy="82.02037080656109%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.50309285714286%" cy="54.48310770248869%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.74215%" cy="52.38727815045249%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="91.7402857142857%" cy="88.76271364932126%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.09182857142856%" cy="88.21167547511313%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.53357142857143%" cy="18.33760261538461%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.34825000000001%" cy="5.225460303167424%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="67.32433571428572%" cy="85.04892348303167%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.87722142857143%" cy="84.28184816855203%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.39134285714286%" cy="8.20741543891404%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="14.0216%" cy="75.28543372171946%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.49669285714286%" cy="87.09130525226244%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.672314285714286%" cy="72.11412358484162%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.40654285714285%" cy="76.19827247624434%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="15.891199999999998%" cy="19.324608873303163%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.00294285714286%" cy="82.35624329298642%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="34.7696%" cy="4.876190990950228%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="77.49435714285714%" cy="93.875%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="91.1483%" cy="44.762259615384615%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.21030714285715%" cy="96.20062282579187%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="77.95605714285713%" cy="13.216080890271492%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="68.86822142857143%" cy="6.084118029411769%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="69.69919999999999%" cy="75.12509947511312%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.49135000000001%" cy="61.99741539479638%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="8.043521428571424%" cy="12.493261538461546%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="79.14247142857143%" cy="78.4267077024887%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="18.46597142857143%" cy="5.634711123303163%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="58.98849285714286%" cy="3.8762888733031673%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="32.76482857142857%" cy="80.28070769230769%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.09262857142858%" cy="24.164461528280547%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="21.55415%" cy="72.90102710067873%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="5.199628571428569%" cy="74.649890739819%" r="12" class="nd ball nd_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.37994285714285%" cy="69.15184082013575%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.57347857142857%" cy="84.19074934389141%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="67.03322857142857%" cy="11.681956039592762%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.92536428571428%" cy="74.72369230769232%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="57.726757142857146%" cy="23.373620410633492%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.3133%" cy="80.82566991968326%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="85.69502857142857%" cy="90.3197612861991%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.70933571428571%" cy="96.6000663235294%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="46.499385714285715%" cy="90.00591093438914%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="83.58562142857143%" cy="78.32021255542986%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.34574285714285%" cy="77.47277326809954%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.75454285714285%" cy="62.64693771832579%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="74.98554285714286%" cy="18.129835630090497%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.46202142857143%" cy="15.488163143665162%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.78635714285714%" cy="88.62002652941175%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.77314285714286%" cy="15.59873626809955%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.28597857142857%" cy="51.1117472658371%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.29817142857144%" cy="96.63894736199094%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="27.121421428571427%" cy="10.178314250000007%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="25.507507142857147%" cy="11.733797047511317%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.3748142857142938%" cy="68.7729541877828%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="60.10854285714286%" cy="81.81153118212669%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.161885714285724%" cy="95.98347853280544%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="79.77842857142858%" cy="95.23864834728505%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.28387142857143%" cy="44.295566814479635%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.8674357142857%" cy="96.29953442420816%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="45.07805%" cy="87.78961538461539%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="4.242842857142854%" cy="86.0185305316742%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="5.637714285714296%" cy="8.82997676583711%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.211635714285713%" cy="3.835989021493212%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.352885714285712%" cy="28.826923083710405%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.58696428571429%" cy="62.47514792760181%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="40.76925714285714%" cy="2.0158752533936592%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.68164999999999%" cy="57.23960703506787%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="41.10433571428571%" cy="5.379375849547515%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="66.13751428571429%" cy="96.36426090723981%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="85.65268571428571%" cy="74.33167029751131%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.52799285714286%" cy="85.73876856561085%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.869907142857144%" cy="0.910169756787333%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="20.23582142857143%" cy="79.01503437330317%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="21.175507142857146%" cy="16.387380184389144%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="8.012985714285712%" cy="78.76055124886878%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="51.43029285714286%" cy="8.50786068778281%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="52.08742142857143%" cy="81.32593578506787%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="42.43976428571428%" cy="85.51094674999999%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="48.57785%" cy="94.54669604298641%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="20.22930714285714%" cy="87.75413414705882%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.24759285714285%" cy="60.52536424660634%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.64498571428571%" cy="79.0615768755656%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.66206428571428%" cy="95.79417737895928%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="81.22256428571428%" cy="72.75921170814479%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="25.96635714285714%" cy="97.92210186764706%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.27831428571429%" cy="93.32428197737556%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="1.7922500000000028%" cy="77.58590962104071%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.919042857142855%" cy="94.4982553857466%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.37625%" cy="59.52252404638009%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="51.25033571428571%" cy="91.45528006674208%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.78583571428572%" cy="78.01580215497737%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="28.917328571428573%" cy="84.4871535723982%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="27.95647142857143%" cy="93.92038672511313%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="48.16175%" cy="88.05536538914026%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="32.73632857142857%" cy="5.567901761312214%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.67212142857143%" cy="61.67563076923077%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="71.40553571428572%" cy="88.44667831334841%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.24082857142858%" cy="85.80054505429864%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.43708571428571%" cy="36.06392303054299%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.38857857142857%" cy="53.767786562217196%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.42322857142858%" cy="92.86907691289593%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.31812142857143%" cy="15.703353846153846%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.44655714285715%" cy="21.618002770361997%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="65.30042857142857%" cy="6.023375145927595%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="47.11091428571429%" cy="74.83422459615385%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.27496428571428%" cy="17.75327026470589%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="68.95942142857143%" cy="4.7247428902715%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.19332142857144%" cy="72.17456812443439%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.08542142857144%" cy="87.09522049660633%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="93.94048571428571%" cy="76.23973592420813%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="81.5552%" cy="83.179823010181%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="61.57425714285714%" cy="82.02143358031674%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.42987142857143%" cy="39.34192308710408%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="62.8421%" cy="69.84015383597284%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.22775714285714%" cy="51.959860148190046%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="41.51595714285715%" cy="7.29624640837104%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.42522142857143%" cy="17.780991140271496%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="12.392621428571431%" cy="62.415846153846154%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.78765%" cy="7.491483500000001%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="91.80054285714286%" cy="74.08572561764706%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="8.614335714285723%" cy="88.52212495701357%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.06378571428571%" cy="27.594525707013577%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="51.8981%" cy="15.53775383597285%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="20.70322142857143%" cy="72.22252159049773%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="13.399078571428568%" cy="47.994581352941175%" r="12" class="lg ball lg_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="45.41231428571429%" cy="86.38523573529412%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="64.66365714285715%" cy="17.041408178733036%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="12.876307142857137%" cy="4.617842437782812%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="31.13055714285714%" cy="81.65475113122172%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="14.859092857142855%" cy="94.52870570475113%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.943421428571433%" cy="89.09262643552036%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="45.749428571428574%" cy="78.73482418891402%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="84.24356428571429%" cy="88.51670870814479%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="75.38047142857144%" cy="97.78192935180996%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.78100714285713%" cy="89.39398262895926%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="19.04696428571429%" cy="9.631557897058826%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="25.19563571428571%" cy="19.893658154977377%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="0.6933714285714316%" cy="52.233557682126694%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.69725%" cy="83.90945775452488%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="47.940264285714285%" cy="87.9873745938914%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.48198571428571%" cy="93.22850124886878%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="52.11266428571429%" cy="81.29101192647059%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.97218571428571%" cy="83.60560717647058%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.296242857142865%" cy="25.919167032805433%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="61.507485714285714%" cy="89.20451923076922%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="41.06525%" cy="13.659038461538465%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="21.526057142857145%" cy="5.465428575791869%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.94007857142857%" cy="17.62850124886878%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="12.316485714285712%" cy="91.04810778846154%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.76820714285715%" cy="46.97513367873303%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.900028571428571%" cy="34.66694037330317%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.751657142857141%" cy="95.1849450418552%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="40.32384285714286%" cy="96.4918663280543%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.77312857142857%" cy="14.004539716063348%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.7056499999999915%" cy="42.427978677601814%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="15.700657142857146%" cy="16.10589886199096%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="1.2951285714285703%" cy="38.68564599886878%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="45.253528571428575%" cy="21.138888930995478%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="60.861757142857144%" cy="19.578630187782807%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="23.568285714285715%" cy="78.92605770588236%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="50.79555714285714%" cy="90.30557064819004%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="58.556514285714286%" cy="16.566053509049773%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="47.84417857142857%" cy="83.46583404072399%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.8250857142857%" cy="7.741594304298644%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.22657857142858%" cy="17.94182693325792%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="4.732228571428571%" cy="60.201153835972846%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="58.57483571428571%" cy="23.694213707013578%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.501264285714285%" cy="88.71232291402714%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="5.005421428571431%" cy="89.18874054072398%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.53856428571429%" cy="71.892500010181%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="18.176085714285712%" cy="22.717435195701363%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.16381428571428%" cy="89.8121650735294%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.2946%" cy="6.4228901142533985%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="46.63252142857143%" cy="95.79232571040724%" r="12" class="sw ball sw_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="83.86288571428571%" cy="2.3178943823529323%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="7.6221285714285685%" cy="72.88956975452489%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="42.34327142857143%" cy="74.12090704524887%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="81.32027857142857%" cy="77.83353111085972%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.6883142857142914%" cy="65.99343646945701%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="56.757757142857145%" cy="98.833351959276%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="3.094292857142854%" cy="20.408110626696832%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.13157857142858%" cy="7.596358677601813%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="75.0686%" cy="16.62728721832579%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="82.39839285714285%" cy="7.837396443438919%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.70550714285713%" cy="41.555163055429865%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="38.16272857142857%" cy="16.057362299773757%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="31.313771428571425%" cy="98.38790742533936%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.24013571428571%" cy="19.446408102941184%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="1.7348428571428585%" cy="16.733358856334846%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="27.698342857142855%" cy="90.41548691515837%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.80897142857143%" cy="85.30684574773755%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="99.20484285714286%" cy="78.3005794321267%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.76884285714286%" cy="71.24188629411765%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="62.54814285714286%" cy="86.43596323755656%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="51.45227857142857%" cy="87.46735911425338%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="52.29872857142857%" cy="9.076882175339364%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="68.28682142857143%" cy="15.845321159502262%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.18215714285714%" cy="80.57386003959276%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.53084285714286%" cy="94.83013361312217%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="27.63035%" cy="6.972959984162898%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="92.9837%" cy="93.75801217647057%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="43.80002857142857%" cy="4.271450122171949%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="24.29747857142857%" cy="85.51597803506786%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="92.44179285714286%" cy="78.00453454185521%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.51402857142858%" cy="94.5561953699095%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="68.29618571428571%" cy="4.458820378959274%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.91207142857143%" cy="13.250782273755654%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.78314999999999%" cy="6.9990768337104186%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.42095%" cy="81.61837721380091%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="11.25872857142857%" cy="23.579874815610857%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.6369357142857%" cy="62.07632142873303%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="60.87967142857143%" cy="96.61867692873304%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.00667142857142%" cy="82.73906569457014%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="59.33293571428571%" cy="3.1211319819004544%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.0507%" cy="8.859518705882358%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="66.80848571428571%" cy="0.24289856787330422%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.54935714285714%" cy="1.9083496776018123%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="66.7865%" cy="95.84363429298642%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="29.57405%" cy="96.51669065950226%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.58411428571429%" cy="25.43980448190045%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="22.529257142857144%" cy="17.58298566289593%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="16.47707857142857%" cy="91.56720991063348%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.10235714285714%" cy="16.897111718325796%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="68.7835357142857%" cy="0.6406212432126708%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="52.82272142857143%" cy="75.40381537443439%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="15.680707142857145%" cy="87.21011169683257%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="0.48532142857142446%" cy="72.44372562669683%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="28.08065%" cy="89.05099808597285%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="22.707178571428575%" cy="95.58435252941176%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="34.01679285714286%" cy="85.32047644117648%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="23.452657142857145%" cy="9.55633800452489%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="1.1746142857142772%" cy="41.986756314479635%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="7.318807142857146%" cy="81.26270236538463%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="36.227171428571424%" cy="88.83846153846153%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="18.817335714285715%" cy="90.7985576923077%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="26.14794285714286%" cy="92.9777009061086%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="18.807971428571427%" cy="84.06424725791855%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="58.21288571428572%" cy="83.09681789366516%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.384057142857145%" cy="98.2424266606335%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="12.050214285714283%" cy="87.8455679061086%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="15.182771428571428%" cy="33.7730344219457%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.799550000000004%" cy="89.08315978959277%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.25787857142857%" cy="90.14659874095022%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.27859285714285%" cy="84.18249562104072%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="17.228664285714288%" cy="79.4086938235294%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.39910714285713%" cy="37.70112951357466%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="14.835478571428574%" cy="32.116093657239816%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.72412142857144%" cy="77.19822566176471%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.99457142857142%" cy="90.60953197511313%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="13.257392857142861%" cy="97.12455638122171%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.855935714285714%" cy="24.800314918552036%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.17177857142858%" cy="27.8075756821267%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.228071428571425%" cy="45.14982952714932%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="41.40847142857143%" cy="2.504115276018105%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.23174285714285%" cy="77.50004128280543%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="27.238678571428572%" cy="3.4656912296380185%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.209021428571425%" cy="78.17999150678733%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="6.1759571428571505%" cy="38.211408072398186%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="48.81643571428572%" cy="9.873435472850687%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="49.099807142857145%" cy="7.04595555316741%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.28467142857143%" cy="19.75465024321267%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="48.505785714285715%" cy="10.357182164027158%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="31.401307142857142%" cy="6.542744763574667%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.8398285714285763%" cy="34.464247555429864%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="92.94542857142858%" cy="98.64266513122172%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.315378571428575%" cy="42.59447860633484%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.59032142857143%" cy="96.90657117873303%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="7.628642857142857%" cy="28.24317789140272%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="42.50816428571429%" cy="79.70205346606335%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.77185714285714%" cy="97.71144069004524%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="49.85912857142857%" cy="97.6961864536199%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="15.388378571428568%" cy="17.59494165384615%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="0.32897857142857845%" cy="46.69198693891403%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.18069285714286%" cy="89.40957601470588%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.79124285714286%" cy="67.11219249547511%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.46104285714284%" cy="51.27343545248869%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="34.002135714285714%" cy="91.04744271493212%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="95.33494999999999%" cy="65.13559494343892%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.91273571428571%" cy="96.88317225791855%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.12837142857143%" cy="83.3514313755656%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="32.104035714285715%" cy="23.724222649321266%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="61.672785714285716%" cy="9.490804514705886%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="49.80782857142857%" cy="84.93387257352941%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="28.469878571428573%" cy="84.14661017760181%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.213264285714285%" cy="84.4021186300905%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="57.9914%" cy="92.73738590950225%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="37.37083571428572%" cy="92.78256191855203%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="70.22848571428571%" cy="91.71652543891403%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="22.526814285714284%" cy="89.84641460407241%" r="12" class="sl ball sl_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.576342857142855%" cy="76.32558340158371%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="88.98922142857143%" cy="99.04367976018099%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.38335714285714%" cy="80.81488763461539%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="80.74498571428572%" cy="98.0623919739819%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="76.39955%" cy="86.29902800339366%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="47.121092857142855%" cy="91.8514109638009%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.02667857142858%" cy="73.19240175452488%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="69.30549285714287%" cy="94.87118457805428%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="95.57760714285715%" cy="76.61134709502262%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="30.588242857142856%" cy="82.68456167420814%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="71.96902142857144%" cy="93.34744257126698%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="34.321335714285716%" cy="26.697662644796385%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="39.70865%" cy="81.07399967081447%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="22.93355%" cy="68.98195425452488%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="19.558335714285715%" cy="30.264167658371044%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="87.72585714285714%" cy="95.60687556900453%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="38.14685%" cy="79.66972594457013%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="19.575842857142856%" cy="9.757825565610858%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.816071428571426%" cy="97.28327334615385%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="51.46123571428571%" cy="5.184168048642533%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="81.55479285714286%" cy="97.87641569909502%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="98.52491428571429%" cy="29.05947579411765%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="86.56997857142858%" cy="92.64372837669684%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="29.725099999999998%" cy="26.670640378959277%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="94.31668571428571%" cy="85.00323740610858%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="90.53677142857143%" cy="72.67492436651584%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="97.29208571428572%" cy="30.942827441176473%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.9640071428571417%" cy="17.370296828054308%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="35.03505714285714%" cy="83.21705921719456%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="7.748750000000008%" cy="97.32934313461539%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="2.780792857142856%" cy="21.300831907239818%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="63.620149999999995%" cy="78.86222991968326%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="55.45408571428571%" cy="0.33586863914027987%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="7.604621428571427%" cy="28.373746745475117%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="10.939528571428575%" cy="17.57530144457013%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="33.029471428571426%" cy="70.22563387443438%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="96.62844285714286%" cy="69.77084031561085%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="18.425664285714284%" cy="14.655905095022625%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="37.50763571428571%" cy="83.17551418891404%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="66.55850000000001%" cy="95.36633073642534%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="89.65408571428571%" cy="98.9202390893665%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="74.03527142857143%" cy="99.77871028959277%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="53.51405%" cy="2.622817630090502%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="26.26723571428571%" cy="6.950810271493218%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="23.972578571428574%" cy="14.654441139140275%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="72.94860714285714%" cy="84.97931394004524%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="50.26627142857143%" cy="86.63523908936651%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+<circle cx="62.31444285714286%" cy="78.59127300791855%" r="12" class="db ball db_ball" fill="#1C6FA6" opacity=0.3></circle>
+
+
+
+
+
+
+
+          </svg>
+        </div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-9 col-xs-12" id="total_2nd_frame">
+          <div id="profile_line">
+            <div id="profile_title">
+             <img src="./img/referee_title.png">
+            </div>
+            <img src="./Referee_img/kmh.png" class="referee_circle">
+            <!--이미지 넣는곳-->
+
+
+
+
+            <!--심판프로필 넣는곳-->
+
+
+            <div class = "profile_part">
+                <span class="profile_list">심판이름</span>
+                <span class="profile_list">경력</span>
+                <span class="profile_contents">구명환</span>
+                <span class="profile_contents">8년</span>
+                <span class="profile_list">생년월일</span>
+                <span class="profile_list">입사연월</span>
+                <span class="profile_contents">1986. 01. 13</span>
+                <span class="profile_contents">2011. 04</span>
+                <span class="profile_list">최종학력</span>
+                <span class="profile_list">경기수 (1군)</span>
+                <span class="profile_contents">경북고등학교</span>
+                <span class="profile_contents">8</span>
+            </div>
+          </div>
+          <div class = "profile_comment">
+            <span> 전 두산 베어스의 외야수였다. 편파판정으로 유명하다. 2017시즌 2차례 판독 중에 1번 번복으로 50%를 기록했다. 2018 SK 와이번스와 KT 위즈의 경기에서 편파판정을 내렸다는 팬들의 의혹을 받고 있다.</span>
+          </div>
+
+
+
+
+
+
+
+
+          <div id = "team_line_1">
+            <div class = "team_title">
+              <img src="./img/team_referee_result.png">
+            </div>
+            <div class = team_list>
+              <ul class = team_bnt>
+                <li><img src="./Logo_img/samsung_lions.png" alt="삼성" class="samsung_logo" /></li>
+                <li><img src="./Logo_img/hanhwa_eagles.png" alt="한화" class="hanhwa_logo"/></li>
+                <li><img src="./Logo_img/doosan_bears.png" alt="두산" class="doosan_logo"/></li>
+                <li><img src="./Logo_img/nc_dinos.png" alt="NC" class="nc_logo"/></li>
+                <li><img src="./Logo_img/kiwoom_heroes.png" alt="키움" class="kiwoom_logo"/></li>
+                <li><span style="padding-bottom:10px">삼성 라이온즈</span></li>
+                <li><span style="padding-bottom:10px">한화 이글스</span></li>
+                <li><span style="padding-bottom:10px">두산 베어스</span></li>
+                <li><span style="padding-bottom:10px">NC 다이노스</span></li>
+                <li><span style="padding-bottom:10px">키움 히어로즈</span></li>
+                <li><img src="./Logo_img/sk_wyverns.png" alt="SK" class="sk_logo"/></li>
+                <li><img src="./Logo_img/kt_wiz.png" alt="KT" class="kt_logo"/></li>
+                <li><img src="./Logo_img/lg_twins.png" alt="LG" class="lg_logo"/></li>
+                <li><img src="./Logo_img/lotte_giants.png" alt="롯데" class="lotte_logo"/></li>
+                <li><img src="./Logo_img/kia_tigers.png" alt="기아" class="kia_logo"/></li>
+                <li><span>SK 와이번스</span></li>
+                <li><span>KT 위즈</span></li>
+                <li><span>LG 트윈스</span></li>
+                <li><span>롯데 자이언츠</span></li>
+                <li><span>KIA 타이거즈</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="total_3rd_frame">
+          <div id = "team_line_2">
+            <div class = "team_title">
+              <img src="./img/team_referee_result.png">
+            </div>
+            <div class = team_list>
+              <ul class = team_bnt>
+                <li><img src="./Logo_img/samsung_lions.png" alt="삼성" class="samsung_logo" /></li>
+                <li><img src="./Logo_img/hanhwa_eagles.png" alt="한화" class="hanhwa_logo"/></li>
+                <li><img src="./Logo_img/doosan_bears.png" alt="두산" class="doosan_logo"/></li>
+                <li><img src="./Logo_img/nc_dinos.png" alt="NC" class="nc_logo"/></li>
+                <li><img src="./Logo_img/kiwoom_heroes.png" alt="키움" class="kiwoom_logo"/></li>
+                <li><span>삼성 라이온즈</span></li>
+                <li><span>한화 이글스</span></li>
+                <li><span>두산 베어스</span></li>
+                <li><span>NC 다이노스</span></li>
+                <li><span>키움 히어로즈</span></li>
+                <li><img src="./Logo_img/sk_wyverns.png" alt="SK" class="sk_logo"/></li>
+                <li><img src="./Logo_img/kt_wiz.png" alt="KT" class="kt_logo"/></li>
+                <li><img src="./Logo_img/lg_twins.png" alt="LG" class="lg_logo"/></li>
+                <li><img src="./Logo_img/lotte_giants.png" alt="롯데" class="lotte_logo"/></li>
+                <li><img src="./Logo_img/kia_tigers.png" alt="기아" class="kia_logo"/></li>
+                <li><span>SK 와이번스</span></li>
+                <li><span>KT 위즈</span></li>
+                <li><span>LG 트윈스</span></li>
+                <li><span>롯데 자이언츠</span></li>
+                <li><span>KIA 타이거즈</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</body>
+
+</html>
