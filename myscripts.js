@@ -44,7 +44,7 @@ $(document).ready(function() {
         $('.kw').hide();
         $('.lt').hide();
         $('.lg').hide();
-        $('.st').hide();
+        $('.kt').hide();
     });
     $('.hanhwa_logo').on('click', function() {
         $(this).attr('src', './Logo_img/hanhwa_eagles_2.png');
